@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f1f1;
+}
+header{
+    background-color: blueviolet;
+    padding: 10px;
+    color:#fff;
+    text-align: center;
+}
+
+main{
+    padding:30px 50px;
+}
+
+.card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    outline: 0; /* Remove borda preta */
+}
+
+button{
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    /* demora a passagem do mouse de um botão para o outro */
+    transition:  all ease 0.3s;
+}
+
+/* toda vez que passar o mouse no botão ele muda de cor */
+button:hover{
+    background-color: rgb(85, 22, 144);
+}
+
+.content{
+    margin-top: 15px;
+}
+
+table{
+    border-collapse: collapse; /* troca o formato da borda */
+    border: 1px solid #ccc;
+    width: 100% /* Ocupar 100% da tela */
+}
+
+table th{
+    background-color: rgb(236, 229, 229);
+    text-align: left;
+}
+
+table td img{
+    width: 22px;
+}
+
+.center{
+    text-align: center;
+}
